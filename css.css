@@ -1,0 +1,105 @@
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #6200ea;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+section p {
+    font-size: 1.1rem;
+}
+
+/* Imagen de perfil */
+.perfil {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Redes sociales */
+.redes-sociales {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+    color: #6200ea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redes-sociales a:hover {
+    text-decoration: underline;
+}
+
+/* Habilidades */
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+#habilidades li {
+    background: #6200ea;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+}
